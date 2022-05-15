@@ -1,0 +1,41 @@
+* {
+    background-color: white;
+}
+
+/* div {
+    display: block;
+} */
+
+.HEADER {
+    /* color: yellow;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Inter', Verdana, sans-serif; */
+    /* margin-top: auto; */
+    /* margin-left: 45%; */
+    background-color: rgb(235, 235, 235);
+    border-bottom: 1px lightgrey solid;
+}
+
+.img {
+    height: 55px;
+    width: 110px;
+    margin-top: 6px;
+    margin-left: 45%;
+    background: transparent;
+}
+
+#login {
+    border: 1px rgb(34, 48, 119) solid;
+    border-radius: 15px;
+    color: rgb(68, 68, 68);
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 17px;
+    background-color: white;
+    max-width: 136px;
+    padding: 5px 8px 6px 10px;
+    float: right;
+    position: relative;
+    top: 16.5px;
+    margin-inline-end: 25px;
+}
