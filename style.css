@@ -101,6 +101,12 @@ a:active {
     margin-right: auto;
     text-align: center;
     font-family: 'Roboto', Arial, sans-serif;
+    background-color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 126, 0.9475140397956058) 0%, rgba(89, 185, 255, 1) 100%);
+    padding-bottom: 65px;
+    padding-top: 35px;
+    color: white
 }
 
 #saldoactual {
@@ -123,7 +129,7 @@ a:active {
     font-weight: 700;
     margin-left: 35px;
     padding-left: 35px;
-    border-left: 1px black solid;
+    border-left: 1px white solid;
     background-color: transparent;
 }
 
@@ -165,7 +171,7 @@ a:active {
     font-size: 16px;
     font-weight: 400;
     position: relative;
-    top: -400px;
+    top: 00px;
 }
 
 #boton {
@@ -173,7 +179,7 @@ a:active {
     margin-left: 15px;
     border: 2px rgb(49, 78, 197) solid;
     border-radius: 20px;
-    box-shadow: 3px 3px 10px -8px black;
+    box-shadow: 3px 3px 50px -27px black;
     padding-left: 65px;
     padding-right: 25px;
     padding-top: 60px;
@@ -184,11 +190,16 @@ a:active {
 
 .cuentas {
     position: relative;
-    top: -540px;
+    top: 0px;
     z-index: 2;
     background-color: transparent;
 }
 
 .valores {
     background-color: transparent;
+}
+
+.cajaprincipal {
+    display: inline-block;
+    width: 100%;
 }
