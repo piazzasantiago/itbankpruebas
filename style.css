@@ -88,6 +88,8 @@ a:active {
     margin-top: 0;
     margin-bottom: 0;
     display: table;
+    position: relative;
+    z-index: 40;
 }
 
 .Saldo {
@@ -102,8 +104,11 @@ a:active {
 }
 
 #saldoactual {
-    font-weight: 100;
+    font-weight: 400;
     font-size: 30px;
+    position: relative;
+    z-index: 30;
+    background-color: transparent;
 }
 
 #valor {
@@ -146,12 +151,11 @@ a:active {
 
 .waves {
     background: transparent;
-    height: 300px;
+    height: 550px;
     width: 100%;
     position: relative;
-    top: -100px;
-    z-index: 1;
-    opacity: 0.5;
+    top: -300px;
+    opacity: 0.3;
 }
 
 .botones {
@@ -161,7 +165,7 @@ a:active {
     font-size: 16px;
     font-weight: 400;
     position: relative;
-    top: -180px;
+    top: -400px;
 }
 
 #boton {
@@ -180,7 +184,7 @@ a:active {
 
 .cuentas {
     position: relative;
-    top: -270px;
+    top: -540px;
     z-index: 2;
     background-color: transparent;
 }
