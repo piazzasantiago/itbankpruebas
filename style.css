@@ -1,5 +1,5 @@
 * {
-    background-color: white;
+    background-color: rgb(234, 234, 234);
 }
 
 /* div {
@@ -13,7 +13,7 @@
     font-family: 'Inter', Verdana, sans-serif; */
     /* margin-top: auto; */
     /* margin-left: 45%; */
-    background-color: rgb(235, 235, 235);
+    background-color: white;
     border-bottom: 1px lightgrey solid;
 }
 
@@ -21,16 +21,17 @@
     height: 55px;
     width: 110px;
     margin-top: 6px;
-    margin-left: 45%;
+    margin-left: 46%;
     background: transparent;
 }
 
 #login {
-    border: 1px rgb(34, 48, 119) solid;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 500;
+    border: 1px black solid;
     border-radius: 15px;
-    color: rgb(68, 68, 68);
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 17px;
+    color: black;
+    font-size: 16px;
     background-color: white;
     max-width: 136px;
     padding: 5px 8px 6px 10px;
@@ -38,4 +39,152 @@
     position: relative;
     top: 16.5px;
     margin-inline-end: 25px;
+}
+
+
+a:link {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:active {
+    color: darkblue;
+    text-decoration: none;
+}
+
+
+#hola {
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+}
+
+#tagmenu {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.menu {
+    font-size: 18px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    /* border-top: 1px rgb(205, 205, 205) solid; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: table;
+}
+
+.Saldo {
+    display: table;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+#saldoactual {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+#valor {
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: -20px;
+    background-color: transparent;
+}
+
+#valorusd {
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 35px;
+    padding-left: 35px;
+    border-left: 1px black solid;
+    background-color: transparent;
+}
+
+.tipos {
+    font-size: 15px;
+    font-weight: 100;
+    background-color: transparent;
+}
+
+#cuentapesos {
+    margin-right: 80px;
+    margin-left: 0px;
+    position: relative;
+    right: -20px;
+    background-color: transparent;
+    font-weight: 400;
+}
+
+#cuentadolares {
+    margin-left: 50px;
+    padding-left: 50px;
+    background-color: transparent;
+    font-weight: 400;
+}
+
+.waves {
+    background: transparent;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top: -100px;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.botones {
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    top: -180px;
+}
+
+#boton {
+    display: inline-block;
+    margin-left: 15px;
+    border: 2px rgb(49, 78, 197) solid;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px -8px black;
+    padding-left: 65px;
+    padding-right: 25px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    width: 120px;
+}
+
+.cuentas {
+    position: relative;
+    top: -270px;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.valores {
+    background-color: transparent;
 }
