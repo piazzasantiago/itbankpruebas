@@ -2,17 +2,7 @@
     background-color: rgb(234, 234, 234);
 }
 
-/* div {
-    display: block;
-} */
-
 .HEADER {
-    /* color: yellow;
-    font-size: 35px;
-    text-align: center;
-    font-family: 'Inter', Verdana, sans-serif; */
-    /* margin-top: auto; */
-    /* margin-left: 45%; */
     background-color: white;
     border-bottom: 1px lightgrey solid;
 }
@@ -81,7 +71,6 @@ a:active {
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 300;
     text-align: center;
-    /* border-top: 1px rgb(205, 205, 205) solid; */
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -89,7 +78,6 @@ a:active {
     margin-bottom: 0;
     display: table;
     position: relative;
-    z-index: 40;
 }
 
 .Saldo {
@@ -101,11 +89,10 @@ a:active {
     margin-right: auto;
     text-align: center;
     font-family: 'Roboto', Arial, sans-serif;
-    background-color: white;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 126, 0.9475140397956058) 0%, rgba(89, 185, 255, 1) 100%);
+    background-color: transparent;
     padding-bottom: 65px;
     padding-top: 35px;
+    padding-left: 200px;
     color: white
 }
 
@@ -113,7 +100,6 @@ a:active {
     font-weight: 400;
     font-size: 30px;
     position: relative;
-    z-index: 30;
     background-color: transparent;
 }
 
@@ -155,15 +141,6 @@ a:active {
     font-weight: 400;
 }
 
-.waves {
-    background: transparent;
-    height: 550px;
-    width: 100%;
-    position: relative;
-    top: -300px;
-    opacity: 0.3;
-}
-
 .botones {
     width: 100%;
     text-align: center;
@@ -191,7 +168,6 @@ a:active {
 .cuentas {
     position: relative;
     top: 0px;
-    z-index: 2;
     background-color: transparent;
 }
 
@@ -202,4 +178,21 @@ a:active {
 .cajaprincipal {
     display: inline-block;
     width: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 126, 0.9475140397956058) 0%, rgba(89, 185, 255, 1) 100%);
+    box-shadow: 0px 20px 50px -30px black;
+}
+
+.grafico {
+    display: table;
+    height: 270px;
+    width: 270px;
+    padding-left: 230px;
+    background-color: transparent;
+}
+
+.inline {
+    width: 47%;
+    display: inline-block;
+    background-color: transparent;
 }
